@@ -216,6 +216,19 @@ h4{
   padding: 2rem;
 }
 
+.footer-icon{
+  display: inline-block;
+  font-size: 2rem;
+  color: black;
+  opacity: 1;
+  margin: 1rem 1rem;
+}
+
+.footer-icon:hover{
+  opacity: 0.5;
+  transition: opacity 1s;
+}
+
 .row-link{
   display: block;
 }
