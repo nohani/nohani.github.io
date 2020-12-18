@@ -214,6 +214,7 @@ h4{
   background: #fcf75b;
   color: black;
   padding: 2rem;
+  width: 100%;
 }
 
 .footer-icon{
@@ -235,4 +236,35 @@ h4{
 
 .row-link:hover{
   text-decoration: none;
+}
+
+.project-links-black{
+  text-align: center;
+  font-size: 2rem;
+}
+
+.project-links-black a{
+  color: black;
+  margin: 1rem 0.5rem;
+}
+
+.project-links-black a:hover{
+  color: white;
+  margin: 1rem 0.5rem;
+  transition: color 0.75s;
+}
+.project-links-white{
+  text-align: center;
+  font-size: 2rem;
+}
+
+.project-links-white a{
+  color: white;
+  margin: 1rem 0.5rem;
+}
+
+.project-links-white a:hover{
+  color: black;
+  margin: 1rem 0.5rem;
+  transition: color 0.75s;
 }
