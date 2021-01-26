@@ -6,6 +6,16 @@ body{
   width: 100%;
 }
 
+a:hover{
+  text-decoration: none;
+  color: #f56464;
+  transition: color 0.5s;
+}
+
+a {
+  color: red;
+}
+
 @keyframes fadeIn{
   from{
     transform: translateX(-2rem);
@@ -42,9 +52,14 @@ body{
   box-shadow: 3px 3px 5px black;
 }
 
+.headshot-col{
+  display:flex;
+  align-items: flex-end;
+}
+
 @media only screen and (min-width: 800px){
   .headshot{
-    max-width: 30%;
+    max-width: 80%;
   }
 }
 
@@ -194,7 +209,7 @@ h4{
 }
 
 .bio-row{
-  background: #fcf75b;
+  background: #f7f49c;
   padding: 2rem;
   width: 100%;
   margin: 0;
@@ -227,7 +242,7 @@ h4{
 }
 
 .footer{
-  background: #fcf75b;
+  background: #f7f49c;
   color: black;
   padding: 2rem;
   width: 100%;
