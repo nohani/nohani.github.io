@@ -49,17 +49,24 @@ body{
 
 .headshot{
   width: 100%;
-  box-shadow: 3px 3px 5px black;
+  box-shadow: 3px 3px 1px black;
+  border: 1px solid black;
 }
 
 .headshot-col{
   display:flex;
-  align-items: flex-end;
+  align-items: center;
+}
+
+@media only screen and (min-width: 571px ) and (max-width: 910px ){
+  h6 {
+    margin-bottom: 2rem;
+  }
 }
 
 @media only screen and (min-width: 800px){
   .headshot{
-    max-width: 80%;
+    max-width: 100%;
   }
 }
 
